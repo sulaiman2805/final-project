@@ -1,9 +1,12 @@
-import Login from "./pages/Login"
+import LoginPage from "./pages/LoginPage"
+import RegisterPage from "./pages/RegisterPage"
+
 
 function App() {
   return (
     <>
-      <Login/>
+      {/* <LoginPage/> */}
+      <RegisterPage/>
     </>
   )
 }
